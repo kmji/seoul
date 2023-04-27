@@ -5,13 +5,12 @@
 .wrapper{
     min-width: 1152px;
 }
-
+/* BTN-TOP */
 .btn-top{
     position: fixed;
     bottom: 0;
     left: 50%;
     margin-left: 600px;
-    /* left 50%주고 margin-left로 밀면 화면이 줄어도 항상 같은 위치에 나온다 */
     opacity: 0;
     transition: 0.3s;
 }
@@ -19,7 +18,7 @@
     opacity: 1;
     bottom: 98px;
 }
-
+/* HEADER */
 .header{
     margin: 0 auto;
 }
@@ -29,7 +28,6 @@
     align-items: center;
    height: 48px;
 }
-
 .header .logo-area .logo a::before{
     display: block;
     width: 105px;
@@ -96,14 +94,11 @@
     -webkit-border-radius: 2px;
     border-radius: 2px;
 }
-
 .header .search-area .input-text{
     font-size: 14px;
     padding: 10px 180px 10px 10px;
     width: 85%;
-    
 }
-
 .header .search-area input::placeholder{
     color: #2292e9;
 }
@@ -148,7 +143,6 @@
     color: #fff;
     width: 30px;
     height: 21px;
-    /* padding: 2px 5px; */
     font-size: 12px;
 }
 .header .weather-area{
@@ -156,9 +150,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
 }
-
 .header .temp .img{
     position: absolute;
     top: 0;
@@ -175,7 +167,6 @@
     margin-left: 10px;
     font-size: 16px;
 }
-
 .header .dust{
     margin-top: 8px;
 }
@@ -191,8 +182,7 @@
     font-size: 14px;
     margin-left: -4px;
 }
-
-
+/* FOOTER */
 .footer{
     margin-top: 30px;
 }
@@ -236,7 +226,6 @@
     height: 24px;
     content: '';
 }
-
 .group-link .sns-item.facebook{
     background-position: -25px 0;  
 }
